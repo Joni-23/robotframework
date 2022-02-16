@@ -1,6 +1,7 @@
 *** Settings ***
 Documentation   Test cases for validating login with different credentials
 Resource    ../Resources/LoginPage.robot
+Resource    ../Resources/Inventory.robot
 Test Setup  Open Login Page
 Test Teardown   Close All Browsers
 Force Tags  login   smoke   regression
@@ -9,6 +10,8 @@ Force Tags  login   smoke   regression
 Validate Succesful User Login
     Fill The Login Form  standard_user  secret_sauce
     Validate Succesful Login
+    Log out
+    Validate Login window
 
 Validate Locked User Login
     Fill The Login Form  locked_out_user  secret_sauce

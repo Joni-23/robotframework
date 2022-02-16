@@ -10,6 +10,11 @@ ${DEFAULT_USER}     standard_user
 ${DEFAULT_PASS}     secret_sauce
 
 *** Keywords ***
+Login With Default User
+    [Documentation]     Use default username to login
+    Open Login Page
+    Fill The Login Form  ${DEFAULT_USER}    ${DEFAULT_PASS}
+    
 Open Login Page
     [Documentation]     Default Keyword for opening login window
     Open Browser    ${LOGIN_PAGE}     ${DEFAULT_BROWSER}
@@ -29,3 +34,7 @@ Validate Login Error Message Content
 Validate Succesful Login
     [Documentation]     Validate that login was succesful
     Wait Until Location Is  https://www.saucedemo.com/inventory.html
+
+Validate Login window
+    [Documentation]     Validate that login window is open
+    Wait Until Location Is  ${LOGIN_PAGE}
