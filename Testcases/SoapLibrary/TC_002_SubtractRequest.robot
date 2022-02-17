@@ -15,6 +15,12 @@ Valid Request With Positive And Negative Number
     ${response}=    Call SOAP Method With XML   ${request}
     Validate XML Innertext  ${response}  SubtractResult  -200
 
+Invalid Request With Decimal Number
+    ${dict}=    Create Dictionary   intA=-100   intB=100.5
+    ${request}=     Generate Request  ${BASE_XML}  ${dict}
+    ${response}=    Call SOAP Method With XML   ${request}
+    Validate XML Innertext  ${response}  ErrorTag  error txt
+
 Invalid Request With Number And Character
     ${dict}=    Create Dictionary   intA=-100   intB=A
     ${request}=     Generate Request  ${BASE_XML}  ${dict}
