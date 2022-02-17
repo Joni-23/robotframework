@@ -1,7 +1,6 @@
 *** Settings ***
 Documentation   Test cases for validating login with different credentials
-Resource    ../Resources/LoginPage.robot
-Resource    ../Resources/Inventory.robot
+Resource    Resources.robot
 Test Setup  Login With Default User
 Test Teardown   Close All Browsers
 Force Tags  inventory   product sorter   regression
