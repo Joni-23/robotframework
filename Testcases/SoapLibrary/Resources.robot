@@ -15,6 +15,8 @@ Generate Request
     [Documentation]     Update request values
     [Arguments]     ${xml}  ${new_values}
     ${edited}=    Edit XML Request    ${DEFAULT_XML_PATH}${xml}   ${new_values}   GeneratedRequest
+    Log     ${xml}
+    Log     ${edited}
     [return]    ${edited}
 
 Validate XML Innertext
