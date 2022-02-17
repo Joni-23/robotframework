@@ -2,5 +2,5 @@ Lib
 Scripts
 pyvenv.cfg
 *.log
-*.xml
+/*.xml
 *.html
