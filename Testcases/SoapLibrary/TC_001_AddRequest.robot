@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation   Cover AddRequest
-Resource    Resources.robot
+Resource    ../../Resources/SoapResource.robot
 Library     SoapLibrary
 Force Tags      AddRequest
 Suite Setup     Connect SOAP

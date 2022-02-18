@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation   Test cases for validating login with different credentials
-Resource    Resources.robot
+Resource    ../../Resources/SeleniumResource.robot
 Test Setup  Login With Default User
 Test Teardown   Close All Browsers
 Force Tags  inventory   product sorter   regression
