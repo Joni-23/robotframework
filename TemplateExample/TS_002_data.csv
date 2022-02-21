@@ -1,0 +1,5 @@
+*** Test Cases ***,${input},${output}
+Add Numbers,10+100,110
+Multiply Numbers,10*100,1000
+Divide Numbers,100/10,10
+Complex Calcuation,(100+50)*4,600
