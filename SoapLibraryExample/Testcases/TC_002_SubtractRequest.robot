@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation   Cover SubtractRequest
-Resource    ../../Resources/SoapResource.robot
+Resource    ../Resources/SoapResource.robot
 Library     SoapLibrary
 Force Tags      SubtractRequest
 Suite Setup     Connect SOAP

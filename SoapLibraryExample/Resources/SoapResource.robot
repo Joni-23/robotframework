@@ -3,7 +3,7 @@ Documentation   Help to automate SOAPLibrary based test cases
 Library     SoapLibrary
 
 *** Variables ***
-${DEFAULT_XML_PATH}     Testcases/SoapLibrary/XML/
+${DEFAULT_XML_PATH}     SoapLibraryExample/Resources/XML/
 ${DEFAULT_CLIENT}   http://www.dneonline.com/calculator.asmx?WSDL
 
 *** Keywords ***
