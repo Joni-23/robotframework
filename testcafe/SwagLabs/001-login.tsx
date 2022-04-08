@@ -1,5 +1,5 @@
 import { Selector } from 'testcafe';
-import { LoginPage } from '../page-models/login-page';
+import { LoginPage } from './page-models/login-page';
 
 fixture `SWAGLabs - User Login`
   .page `https://www.saucedemo.com/`;
