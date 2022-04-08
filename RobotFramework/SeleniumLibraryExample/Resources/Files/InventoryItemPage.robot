@@ -1,7 +1,6 @@
 *** Settings ***
 Documentation   Keyword collection for helping automate inventory item page 
-Library     SeleniumLibrary
-Resource    Generic.robot
+Resource    Head.robot
 
 *** Variables ***
 ${ITEM_DETAILS_NAME}    inventory_details_name

@@ -2,9 +2,6 @@
 Documentation   Test cases for validating inventory item
 
 Resource    ../Resources/Generic.robot
-Resource    ../Resources/InventoryItemPage.robot
-Resource    ../Resources/InventoryPage.robot
-Resource    ../Resources/LoginPage.robot
 
 Test Setup  Inventory Item View Setup
 Test Teardown   Close All Browsers

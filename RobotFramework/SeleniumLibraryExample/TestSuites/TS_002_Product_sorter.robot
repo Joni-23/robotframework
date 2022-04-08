@@ -1,11 +1,7 @@
 *** Settings ***
 Documentation   Test cases for validating product sorter
 
-Library     SeleniumLibrary
-
 Resource    ../Resources/Generic.robot
-Resource    ../Resources/InventoryPage.robot
-Resource    ../Resources/LoginPage.robot
 
 Test Setup  Fill Login Information
 Test Teardown   Close All Browsers

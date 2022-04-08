@@ -1,0 +1,26 @@
+==============================================================================
+TestSuites                                                                    
+==============================================================================
+TestSuites.TS 001 Login :: Test cases for validating login with different c...
+==============================================================================
+Validate Succesful User Login                                         | PASS |
+------------------------------------------------------------------------------
+Validate With Upper Case Username                                     | PASS |
+------------------------------------------------------------------------------
+Validate With Upper Case Password                                     | PASS |
+------------------------------------------------------------------------------
+Validate Locked User Login                                            | PASS |
+------------------------------------------------------------------------------
+Validate Invalid Password Login                                       | PASS |
+------------------------------------------------------------------------------
+Validate Empty Username Login                                         | PASS |
+------------------------------------------------------------------------------
+Validate Empty password Login                                         | PASS |
+------------------------------------------------------------------------------
+TestSuites.TS 001 Login :: Test cases for validating login with di... | PASS |
+7 tests, 7 passed, 0 failed
+==============================================================================
+TestSuites                                                            | PASS |
+7 tests, 7 passed, 0 failed
+==============================================================================
+Output:  C:\Users\jvaisanen\Documents\robotframework\SeleniumLibraryExample\pabot_results\0\output.xml

@@ -1,9 +1,6 @@
 *** Settings ***
 Documentation   Test cases for validating login with different credentials
 
-Library     SeleniumLibrary
-
-Resource    ../Resources/LoginPage.robot
 Resource    ../Resources/Generic.robot
 
 Test Setup      Open Browser    ${LOGIN_PAGE}   ${DEFAULT_BROWSER}

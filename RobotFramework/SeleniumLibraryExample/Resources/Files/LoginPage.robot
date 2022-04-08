@@ -1,7 +1,6 @@
 *** Settings ***
 Documentation   Keyword collection for helping automate login page
-Library     SeleniumLibrary
-Resource    Generic.robot
+Resource    Head.robot
 
 *** Variables ***
 ${DEFAULT_USER}     standard_user
