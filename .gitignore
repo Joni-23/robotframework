@@ -1,1 +1,10 @@
+#testcafe
 /node_modules
+
+#robotframework
+Lib
+Scripts
+pyvenv.cfg
+*.log
+/*.xml
+*.html
