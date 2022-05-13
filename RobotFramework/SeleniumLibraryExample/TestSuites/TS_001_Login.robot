@@ -3,10 +3,10 @@ Documentation   Test cases for validating login with different credentials
 
 Resource    ../Resources/Generic.robot
 
-Test Setup      Open Browser    ${LOGIN_PAGE}   ${DEFAULT_BROWSER}
+Test Setup      Open My Browser    ${LOGIN_PAGE}
 Test Teardown   Close All Browsers
 
-Force Tags  login
+Force Tags  SeleniumLibrary
 
 *** Test Cases ***
 Validate Succesful User Login

@@ -6,11 +6,11 @@ Resource    ../Resources/Generic.robot
 Test Setup  Fill Login Information
 Test Teardown   Close All Browsers
 
-Force Tags  product sorter
+Force Tags  SeleniumLibrary
 
 *** Keywords ***
 Fill Login Information
-    Open Browser    ${LOGIN_PAGE}   ${DEFAULT_BROWSER}
+    Open My Browser    ${LOGIN_PAGE}
     Login With Default User
     Wait Until Location Is     ${INVENTORY_PAGE}
 

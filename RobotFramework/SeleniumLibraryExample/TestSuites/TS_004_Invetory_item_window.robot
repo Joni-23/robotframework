@@ -6,7 +6,7 @@ Resource    ../Resources/Generic.robot
 Test Setup  Inventory Item View Setup
 Test Teardown   Close All Browsers
 
-Force Tags  inventory item view
+Force Tags  SeleniumLibrary
 
 *** Variables ***
 ${BASE_XPATH}   //div[@class='inventory_details']
@@ -14,7 +14,7 @@ ${BASE_XPATH}   //div[@class='inventory_details']
 *** Keywords ***
 Inventory Item View Setup
     [Documentation]     Setup for Inventory Item test cases
-    Open Browser    ${LOGIN_PAGE}   ${DEFAULT_BROWSER}
+    Open My Browser    ${LOGIN_PAGE}
     Login With Default User
     Wait Until Location Is     ${INVENTORY_PAGE}
     Set Product Sorter By Value  az
