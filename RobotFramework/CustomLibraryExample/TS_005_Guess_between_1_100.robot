@@ -2,7 +2,7 @@
 Library     CustomLibrary/GenerateNumbers.py
 Library     DataDriver  file=testdata.csv   encoding=utf_8   dialect=unix
 Test Template   Guess Number
-
+Force Tags  CustomLibrary
 
 *** Test Cases ***
 Guess Generated Value

@@ -1,6 +1,7 @@
 *** Settings ***
 Library     RequestsLibrary
 Resource     ../../Resources/Resource.robot
+Force Tags  RequestsLibrary
 
 *** Variables ***
 ${URL}  ${BASE_URL}store/order

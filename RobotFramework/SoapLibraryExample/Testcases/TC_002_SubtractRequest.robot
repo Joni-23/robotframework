@@ -2,7 +2,7 @@
 Documentation   Cover SubtractRequest
 Resource    ../Resources/SoapResource.robot
 Library     SoapLibrary
-Force Tags      SubtractRequest
+Force Tags      SoapLibrary
 Suite Setup     Connect SOAP
 
 *** Variables ***

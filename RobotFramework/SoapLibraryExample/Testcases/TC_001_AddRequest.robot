@@ -2,7 +2,7 @@
 Documentation   Cover AddRequest
 Resource    ../Resources/SoapResource.robot
 Library     SoapLibrary
-Force Tags      AddRequest
+Force Tags      SoapLibrary
 Suite Setup     Connect SOAP
 
 *** Variables ***

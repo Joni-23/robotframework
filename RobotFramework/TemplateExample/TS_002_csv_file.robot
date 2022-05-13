@@ -2,6 +2,7 @@
 Documentation   Use CSV file content on test cases
 Library     DataDriver  file=TS_002_data.csv   encoding=utf_8   dialect=unix
 Test Template   Test Case Template
+Force Tags      Template
 
 *** Test Cases ***
 Get Items From CSV
